@@ -1,0 +1,7 @@
+<!--pages/demo2/demo2.wxml-->
+<Tab List="{{List}}" binditemChange="handle">
+   <block wx:if="{{List[0].isActive}}">内容1</block>
+   <block wx:if="{{List[1].isActive}}">内容2</block>
+   <block wx:if="{{List[2].isActive}}">内容3</block>
+   <block wx:if="{{List[3].isActive}}">内容4</block>
+</Tab>

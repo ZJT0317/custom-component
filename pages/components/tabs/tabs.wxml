@@ -1,0 +1,2 @@
+<!--pages/components/tabs/tabs.wxml-->
+<button bindtap="handleItemData" style="border:1px solid black">点我</button>
